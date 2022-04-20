@@ -24,4 +24,30 @@ contra
 	metrica pode ser mal entendidas
 	
 	
-		
+== PROJETO == 
+PARA EXECUTAR APLICAÇÃO EM EXPO
+executar no expo
+	npm start
+executar api local(moc)
+	npm run api (trocar ip no pacote json e em serviços)
+	
+biblioteca para teste
+	jest - propria documentação do react native
+		react-test-renderer
+	react testing library
+	react-hooks-testing-library
+	detox - testes de interface (react native puro para usar)
+==AULA 02== 19/04/2022
+
+precisa instalar algumas dependencias quando se usa o expo, => expo install jest-expo jest
+	criar script que esta na documentação => "test" : "jest"
+	e adiciona no final do arquivo 
+		"jest": {
+  		 "preset": "jest-expo",
+  		 "transformIgnorePatterns": [
+  		   "node_modules/(?!((jest-)?react-native|@react-native(-community)?)|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|react-native-svg)"
+  		 ]
+	esses detalhes esta na documentação
+criar a pasta tests com base na pasta src ou fazer na propria pasta do arquivo 
+
+

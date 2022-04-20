@@ -18,6 +18,19 @@ prós
 	menos bugs
 	codigos coesos - codigos menores, separados
 	ajuda na validação dos requisitos
+
+contra
+	aumento o custo a curto prazo - precisa de mais esforço
+	metrica pode ser mal entendidas
 	
 	
-		
+== PROJETO == 
+PARA EXECUTAR APLICAÇÃO EM EXPO
+executar no expo
+	npm start
+executar api local(moc)
+	npm run api (trocar ip no pacote json e em serviços)
+	
+biblioteca para teste
+	jest - propria documentação do react native
+	
