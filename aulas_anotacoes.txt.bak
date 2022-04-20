@@ -1,0 +1,23 @@
+==AULA 01== 19/04/2022
+
+teste de unidade 	=> teste isolado
+teste de integração => testes externos 
+teste de interface 	=> teste como se fosse um usuario
+
+piramide de testes
+			UI
+		untegração
+	unidade -   unidade
+
+mais voltado para mobile
+	teste de fluxo - testa passo a passo dentro da aplicação
+	teste de componente - teste em memoria
+	TDD - Test Driven Development => Desenvolvimento guiado por testes
+
+prós 
+	menos bugs
+	codigos coesos - codigos menores, separados
+	ajuda na validação dos requisitos
+	
+	
+		
