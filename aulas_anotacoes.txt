@@ -55,4 +55,5 @@ Criando mock no teste leilão com jest.mock
 Testando hooks
 biblioteca que testa hooks são 
 npm install --save-dev react-test-renderer@17.0.1 @testing-library/react-native @testing-library/react-hooks
-
+criado pasta hooks dentro de test
+rederizando o componente 
