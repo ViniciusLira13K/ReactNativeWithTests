@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Text, TextInput, TouchableOpacity, StyleSheet, Platform } from 'react-native';
 import { BlurView } from 'expo-blur';
-import { FontAwesome5 } from '@expo/vector-icons';
+// import { FontAwesome5 } from '@expo/vector-icons';
 import { ENVIADO } from '../../../negocio/constantes/estadosLance';
 
 export default function EnviaLance({ enviaLance, cor }) {
@@ -41,10 +41,11 @@ export default function EnviaLance({ enviaLance, cor }) {
       keyboardType="decimal-pad"
     />
     <TouchableOpacity 
+      accessibilityHint='Enviar lance'
       onPress={validaEnvio}
       disabled={enviando}
       style={estilos.botao}>
-      <FontAwesome5 name="check" size={24} color="#14181B" />
+      {/* <FontAwesome5 name="check" size={24} color="#14181B" /> */}
     </TouchableOpacity>
   </BlurView>
 }

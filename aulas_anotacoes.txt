@@ -56,4 +56,6 @@ Testando hooks
 biblioteca que testa hooks são 
 npm install --save-dev react-test-renderer@17.0.1 @testing-library/react-native @testing-library/react-hooks
 criado pasta hooks dentro de test
-rederizando o componente 
+rederizando o componente, arquivo __teste__ => hooks/useListaLeiloes.test.js
+manipulando componentes em memoria, arquivo __teste__ => telas/leilao/componentes/EnviaLance.test.json
+
